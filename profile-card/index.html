@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="styles.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="flex flex-col justify-center bg-color-set">
+  <div class="relative">
+
+    <div class="absolute z-0 flex place-content-between">
+      <div><img class="object-cover w-11/12 h-auto -mt-72" src="images/bg-pattern-top.svg"></div>
+      <div><img class="object-cover w-11/12 h-96 mt-96 clip" src="images/bg-pattern-bottom.svg"></div>
+    </div>
+    
+
+    <div class="bg-white relative z-100 grid w-1/4 sm:w-full m-110 rounded-lg shadow-2xl mx-auto my-40">
+
+      <div class="bg-auto bg-no-repeat bg-left-top w-full justify-center grid pb-6 pt-20 rounded-t-lg" style="background-image: url('images/bg-pattern-card.svg');">
+        <img class="w-35 h-35 rounded-full border-8 border-white" src="images/image-victor.jpg">
+        <p class="pt-4 pb-2"><span class="text-center font-bold">Victor Crest </span><span  class="">26</span></p>
+        <p class="text-center text-xs">London</p>
+      </div>
+
+      <div class="flex wrap border-t-2 border-gray-300 w-full justify-center">
+
+        <div class="grid p-6">
+          <p class="font-bold text-xl text-center">80K</p>
+          <p class="tracking-wider text-xs text-center">Followers</p>
+        </div>
+        <div class="grid justify-center p-6">
+          <p class="font-bold text-xl text-center">803K</p>
+          <p class="tracking-wider text-xs text-center">Likes</p>
+        </div>
+        <div class="grid justify-center p-6">
+          <p class="font-bold text-xl text-center">1.4K</p>
+          <p class="tracking-wider text-xs text-center">Photos</p>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/vchacin">Victoria Chacin</a>.
+    </div>
+
+  </div>
+</body>
+</html>
