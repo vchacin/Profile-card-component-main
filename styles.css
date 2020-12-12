@@ -1,0 +1,11 @@
+.bg-color-set {
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(229, 23%, 23%);
+}
+
+.clip {
+    object-position: 10px 10px;
+}
+
+
+
